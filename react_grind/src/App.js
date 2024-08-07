@@ -1,11 +1,14 @@
+import React from "react";
+import MobileList from './Components/MobileList'
+
 
 function App() {
   return (
 
     <div>
-      <h1>Project Initiated</h1>
+      <MobileList/>
+    
     </div>
-  
 
   );
 }

@@ -1,0 +1,53 @@
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.05);
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.name {
+    font-size: 1.8em;
+    color: #333;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.Price {
+    font-size: 1.5em;
+    color: #e53935;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #00796b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #004d40;
+}
