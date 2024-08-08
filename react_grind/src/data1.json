@@ -1,0 +1,20 @@
+[
+    {
+      "image":
+        "https://m.media-amazon.com/images/I/61Io5-ojWUL._AC_UY327_FMwebp_QL65_.jpg",
+      "title": "Nord 2",
+      "price": 1000
+    },
+    {
+      "image":
+        "https://m.media-amazon.com/images/I/71ez69tPl4L._AC_UY327_FMwebp_QL65_.jpg",
+      "title": "S24",
+      "price": 10000
+    },
+    {
+      "image":
+        "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg",
+      "title": "15 Pro max",
+      "price": 10000
+    }
+  ]

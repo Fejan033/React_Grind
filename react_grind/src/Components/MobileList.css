@@ -1,13 +1,18 @@
 .container {
-    max-width: 400px;
+    max-width: 700px;
+    height: 300px;
     margin: 40px auto;
     padding: 20px;
     background-color: #ffffff;
     border: 1px solid #e0e0e0;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    text-align: left;
     transition: transform 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
 }
 
 .container:hover {
@@ -15,10 +20,17 @@
 }
 
 .container img {
-    max-width: 100%;
+    max-width: 200px;
     height: auto;
     border-radius: 10px;
-    margin-bottom: 15px;
+    margin-right: 20px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
 }
 
 .name {
@@ -38,7 +50,6 @@
 .button {
     display: inline-block;
     padding: 10px 20px;
-    margin-top: 20px;
     background-color: #00796b;
     color: #ffffff;
     border: none;
